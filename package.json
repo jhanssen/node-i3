@@ -9,6 +9,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": {
+    "name": "Jan Erik Hanssen",
+    "email": "jhanssen@gmail.com"
+  },
   "license": "MIT"
 }
