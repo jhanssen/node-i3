@@ -6,6 +6,10 @@ const i3 = new I3();
 i3.open().then(() => {
     console.log("opened");
 
+    i3.on("error", err => {
+        console.log("got error", err);
+    });
+
     i3.on("workspace", ws => {
         console.log("got workspaces", ws);
     });
